@@ -1,4 +1,4 @@
-# Отчёт о тестировании Precision
+# Отчёт о тестировании программы бонусной системы
 
 ## Краткое описание
 
@@ -8,12 +8,13 @@
 
 В результате тестирования выявлены следующие дефекты:
 
-* Не верно рассчитывает дополнительный бонус новым
-  клиентам  [ссылка на баг репорт](https://github.com/RomanKZN/Precision/issues/1#issue-1013657640)
+* [Приложение не верно рассчитывает дополнительный бонус новым
+  клиентам](https://github.com/RomanKZN/Precision/issues/1#issue-1013657640)
 
 ## Описание процесса тестирования
+Создать базовое приложение и разместить в нём переданный код.
 
-В качестве тестовых данных использовались данные из Задачи №2 - Precision:
+В качестве тестовых данных использовать данные из Задачи №2 - Precision:
 
 `public class Main { public static void main(String[] args) { double regularBonus = 0.3; double specialBonus = 0.6; double totalBonus = regularBonus + specialBonus; System.out.println(totalBonus); } }`
 
